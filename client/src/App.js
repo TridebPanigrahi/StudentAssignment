@@ -1,10 +1,8 @@
 import React from 'react'
 import {
   BrowserRouter,
-  Switch,
   Route,
   Routes,
-  useParams
 } from "react-router-dom";
 import StudentForm from './components/pages/student_form/StudentForm'
 import StudentLists from './components/pages/studentLIst/StudentLists';
